@@ -4,5 +4,8 @@
  * @returns {boolean}
  */
 function checkSpam(str) {
-  // ваш код...
+  if ( str.indexOf('1') != -1 || str.indexOf('xxx') != -1) {
+    return true;
+    };
+    return false;
 }
